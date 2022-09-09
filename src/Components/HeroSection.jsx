@@ -46,11 +46,11 @@ export function HeroSection() {
         <div className={styles.nameCont}>
           <p>Hi,</p>
           <p>
-            I am <span>Punam</span>{" "}
+            I am <span>Umesh</span>{" "}
           </p>
           <p>Web Developer</p>
           <a
-            href="https://docs.google.com/document/d/1JCUOrJLUYvrWgtRluT1Ns1Wg5zPSKsLy/edit?usp=sharing&ouid=113895873573374093110&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1DGy9J_UqjEkM9R-YwfQiAd9bFLaAIAuz/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -77,7 +77,7 @@ export function HeroSection() {
         <div className={styles.socialCont}>
           <a
             rel="noreferrer"
-            href="https://www.linkedin.com/in/punam-jagtap-090839232/"
+            href="https://www.linkedin.com/in/umesh-yadav-5140/"
             className={classes.a}
             target="_blank"
           >
@@ -85,7 +85,7 @@ export function HeroSection() {
           </a>
           <a
             rel="noreferrer"
-            href="https://github.com/punam102/"
+            href="https://github.com/umeshyadav4321"
             className={classes.a}
             target="_blank"
           >

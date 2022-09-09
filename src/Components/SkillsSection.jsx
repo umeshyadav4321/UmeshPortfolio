@@ -66,35 +66,7 @@ export function SkillsSection() {
             }
           />
         </div>
-        <p>Back-end skills</p>
-        <div className={styles.skillsContBack}>
-          <SkillCard
-            skill="Node"
-            icon={
-              <SiNodedotjs
-                className={`${styles.skillIcon} ${styles.nodeIcon}`}
-              />
-            }
-          />
-
-          <SkillCard
-            skill="MongoDb"
-            icon={
-              <SiMongodb
-                className={`${styles.skillIcon} ${styles.mongoIcon}`}
-              />
-            }
-          />
-
-          <SkillCard
-            skill="Express"
-            icon={
-              <SiExpress
-                className={`${styles.skillIcon} ${styles.mongoIcon}`}
-              />
-            }
-          />
-        </div>
+        
         <p>Tools</p>
         <div className={styles.toolsDiv}>
           <SkillCard

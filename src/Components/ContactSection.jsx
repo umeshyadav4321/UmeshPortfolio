@@ -80,22 +80,22 @@ export function ContactSection() {
         <p className={styles.text}>Liked my work? Want to get in touch?</p>
         <p className={styles.text}>You can reach out to me at:</p>
         <div className={styles.iconsCont}>
-          <a href="mailto:jagtappunam129@gmail.com">
+          <a href="mailto:umeshyadav3190@gmail.com">
             <AiOutlineMail className={styles.emailicon} />
           </a>
           <a
-            href="https://linkedin.com/in/punam-jagtap-090839232/"
+            href="https://www.linkedin.com/in/umesh-yadav-5140/"
             target="_blank"
             rel="noreferrer"
           >
             <AiFillLinkedin className={styles.linkedInIcon} />
           </a>
-          <a href="https://github.com/punam102/" rel="noreferrer" target="_blank">
+          <a href="https://github.com/umeshyadav4321" rel="noreferrer" target="_blank">
             <AiOutlineGithub className={styles.gitIcon} />
           </a>
         </div>
-        <p className={styles.text}>Phone: 8010475989</p>{" "}
-        <p className={styles.text}>Email: jagtappunam129@gmail.com</p>
+        <p className={styles.text}>Phone:+918356857569</p>{" "}
+        <p className={styles.text}>Email: umeshyadav3190@gmail.com</p>
       </Fade>
     </div>
   )

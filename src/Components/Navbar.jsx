@@ -12,7 +12,7 @@ export function Navbar() {
         activeClass={styles.active}
       >
         <div className={styles.navlogo}>
-          <img src="" alt="" className={styles.logoimg} />
+          <img src="logo.png" alt="" className={styles.logoimg} />
         </div>
       </Link>
       <div className={styles.navsCont}>

@@ -9,21 +9,20 @@ export function AboutSection() {
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img
-              src="/punamspic.jpeg"
+              src="/profilepic.jpg"
               alt=""
               className={styles.profilePic}
             />
           </div>
           <div>
             <h2>
-              I am <span>Punam Jagtap</span>{" "}
+              I am <span>Umesh Yadav</span>{" "}
             </h2>
             <p>
-            A web developer with a vast array of knowledge in
-many different front end and backend languages,
-responsive frameworks, databases, and best code
-practices. Look forward to using my skills for gaining
-more experience.
+            An aspiring Frontend developer specializing in React
+technology .Passionate about coding and learning new
+technologies. Looking forward to working in a organization
+and scaling it to new heights.
             </p>
           </div>
         </div>
