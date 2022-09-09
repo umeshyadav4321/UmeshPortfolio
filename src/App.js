@@ -17,6 +17,7 @@ function App() {
       <ProjectsSection />
       {/* <BlogSection /> */}
       <ContactSection />
+      <add></add>
     </div>
   )
 }
