@@ -11,12 +11,12 @@ import { SiMongodb } from "react-icons/si"
 import Fade from "react-reveal/Fade"
 const projects = [
   {
-    name: "Overstock.com clone",
-    img: "/overstock.png",
-    link: "https://overstock-clone-2.netlify.app/",
-    git: "https://github.com/SumitB1412/overstock-clone.git",
+    name: "Juicy Chemistry clone",
+    img: "/juicy_Chemistry.png",
+    link: "https://juicy-chemistry-clone1.vercel.app/",
+    git: "https://github.com/Iqbal0786/Juicy_Chemistry_Clone1",
     about:
-      "This is e-commerce website used for shopping wide range of products.This was a team project where I with my teammates had created. ",
+      "It is an inspired project from Juicy Chemistry.Juicy Chemistry is an Online E-Commmerce Beauty Products Store.Executed along 5 members during our construct Week ",
     stacks: [
      // <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,
@@ -27,8 +27,8 @@ const projects = [
     ],
   },
   {
-    name: "Shopbop.com clone",
-    img: "shopbop.jpeg",
+    name: "Zoomcar clone",
+    img: "Zoomcar.png",
     link: "https://shopbop.netlify.app/",
     git: "https://github.com/iShilajit/shopbopclone",
     about:
@@ -40,27 +40,27 @@ const projects = [
       <SiCss3 className={styles.stackIcon} />,
     ],
   },
-  // {
-  //   name: "Zara.com clone",
-  //   img: "/zara.jpg",
-  //   link: "https://thotapavankumar.github.io/Zara_Project_Clone/",
-  //   git: "https://github.com/Gajanan-Watt/zara_web.git",
-  //   about:
-  //     " It is an e-commerce website having varieties of luxury items which are of high quality. We have tried to clone the pixel perfect website with the help of HTML. Implemented using HTML, CSS and javascript.",
-  //   stacks: [
-  //     
-  //     <SiJavascript className={styles.stackIcon} />,
-  //     <SiHtml5 className={styles.stackIcon} />,
-  //     <SiCss3 className={styles.stackIcon} />,
-  //   ],
-  // },
   {
-    name: "Headphonezone.com clone",
-    img: "headphone.jpeg",
-    link: "https://goofy-poitras-94a175.netlify.app/",
-    git: "https://github.com/SankalpJaiswal/Head-Phone-Zone.git",
+    name: "Lumen 5 clone",
+    img: "Lumen5.png",
+    link: "https://thotapavankumar.github.io/Zara_Project_Clone/",
+    git: "https://github.com/Gajanan-Watt/zara_web.git",
     about:
-    "we learn about the fundamentals of Javascript and introduction to Data Structure and Algorithms,  By using these concepts we have built our project website..",
+      " It is an e-commerce website having varieties of luxury items which are of high quality. We have tried to clone the pixel perfect website with the help of HTML. Implemented using HTML, CSS and javascript.",
+    stacks: [
+      
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
+  {
+    name: "Boat-Lifestyle clone",
+    img: "Boat.png",
+    link: "https://tangerine-sunshine-7e926e.netlify.app/",
+    git: "https://github.com/soumyah1512/project_boat_lifestyle",
+    about:
+    "It is an inspired project from Boat lifeStyle website.Tech-Stack used are React,npm libraries.Executed along with 5 members during or Construct-Week.",
     stacks: [
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,

@@ -48,7 +48,7 @@ export function HeroSection() {
           <p>
             I am <span>Umesh</span>{" "}
           </p>
-          <p>Web Developer</p>
+          <p>Front-End Developer</p>
           <a
             href="https://drive.google.com/file/d/1DGy9J_UqjEkM9R-YwfQiAd9bFLaAIAuz/view?usp=sharing"
             target="_blank"
