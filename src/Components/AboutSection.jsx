@@ -19,7 +19,7 @@ export function AboutSection() {
               I am <span>Umesh Yadav</span>{" "}
             </h2>
             <p>
-            An aspiring Frontend developer specializing in React
+            An aspiring Frontend developer specializing in Front-end
 technology .Passionate about coding and learning new
 technologies. Looking forward to working in a organization
 and scaling it to new heights.

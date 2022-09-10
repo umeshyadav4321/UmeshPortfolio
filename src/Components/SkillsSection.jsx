@@ -7,13 +7,15 @@ import { SiJavascript } from "react-icons/si"
 import { SiMaterialui } from "react-icons/si"
 import { SiHtml5 } from "react-icons/si"
 import { SiCss3 } from "react-icons/si"
-import { SiNodedotjs } from "react-icons/si"
-import { SiMongodb } from "react-icons/si"
 import { SiNpm } from "react-icons/si"
 import { SiPostman } from "react-icons/si"
-import { SiExpress } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
 import Fade from "react-reveal/Fade"
+import {SiChakraui} from "react-icons/si"
+import {SiTypescript} from "react-icons/si"
+import {SiCypress} from "react-icons/si"
+import {DiVisualstudio} from "react-icons/di"
+
 
 export function SkillsSection() {
   return (
@@ -21,7 +23,28 @@ export function SkillsSection() {
       <Fade bottom>
         <p>Skills</p>
         <p>Front-end skills</p>
+        
         <div className={styles.skillsContFront}>
+        <SkillCard
+            skill="Html"
+            icon={
+              <SiHtml5 className={`${styles.skillIcon} ${styles.htmlIcon}`} />
+            }
+          />
+          <SkillCard
+            skill="Css"
+            icon={
+              <SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />
+            }
+          />
+          <SkillCard
+            skill="JavaScript"
+            icon={
+              <SiJavascript
+                className={`${styles.skillIcon} ${styles.jsIcon}`}
+              />
+            }
+          />
           <SkillCard
             skill="React"
             icon={
@@ -37,35 +60,31 @@ export function SkillsSection() {
             }
           />
           <SkillCard
-            skill="JavaScript"
+            skill="Chakra UI"
             icon={
-              <SiJavascript
-                className={`${styles.skillIcon} ${styles.jsIcon}`}
-              />
-            }
-          />
-          <SkillCard
-            skill="Material Ui"
-            icon={
-              <SiMaterialui
+              <SiChakraui
                 className={`${styles.skillIcon} ${styles.muiIcon}`}
               />
             }
           />
-
           <SkillCard
-            skill="Html"
+            skill="Typescript"
             icon={
-              <SiHtml5 className={`${styles.skillIcon} ${styles.htmlIcon}`} />
+              <SiTypescript
+                className={`${styles.skillIcon} ${styles.muiIcon}`}
+              />
             }
           />
           <SkillCard
-            skill="Css"
+            skill="Cypress"
             icon={
-              <SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />
+              <SiCypress
+                className={`${styles.skillIcon} ${styles.muiIcon}`}
+              />
             }
           />
         </div>
+        
         
         <p>Tools</p>
         <div className={styles.toolsDiv}>
@@ -83,6 +102,12 @@ export function SkillsSection() {
             skill="Postman"
             icon={
               <SiPostman className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          />
+          <SkillCard
+            skill="Vs Code"
+            icon={
+              <DiVisualstudio className={`${styles.skillIcon} ${styles.gitIcon}`} />
             }
           />
         </div>

@@ -8,6 +8,9 @@ import { SiRedux } from "react-icons/si"
 import { SiNodedotjs } from "react-icons/si"
 import { SiExpress } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
+import { AiFillHtml5 } from "react-icons/ai"
+import { SiMaterialui } from "react-icons/si"
+import {SiChakraui} from "react-icons/si"
 import Fade from "react-reveal/Fade"
 const projects = [
   {
@@ -16,42 +19,45 @@ const projects = [
     link: "https://juicy-chemistry-clone1.vercel.app/",
     git: "https://github.com/Iqbal0786/Juicy_Chemistry_Clone1",
     about:
-      "It is an inspired project from Juicy Chemistry.Juicy Chemistry is an Online E-Commmerce Beauty Products Store.Executed along 5 members during our construct Week ",
+      "Juicy Chemistry Clone is an inspired project from Juicy Chemistry.It is an Online E-Commmerce Beauty Products Store,Executed along 5 members during our construct Week ",
     stacks: [
-     // <SiReact className={styles.stackIcon} />,
-      <SiNodedotjs className={styles.stackIcon} />,
-      <SiExpress className={styles.stackIcon} />,
-      <SiMongodb className={styles.stackIcon} />,
-      <SiJavascript className={styles.stackIcon} />,
+     <AiFillHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
     ],
   },
   {
     name: "Zoomcar clone",
     img: "Zoomcar.png",
-    link: "https://shopbop.netlify.app/",
-    git: "https://github.com/iShilajit/shopbopclone",
+    link: "https://zoomcar-clone-livid.vercel.app/",
+    git: "https://github.com/umeshyadav4321/Zoomcar-Clone",
     about:
-      " This is e-commerce application for Cloths and v. This was a team project where I with my teammates had created.",
+      "Zoom-car clone is a car rental website.Used for booking cars while travelling,cloned using basic React  within 4 days",
     stacks: [
-      // <SiReact className={styles.stackIcon} />,
-      <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} />,
+      <SiRedux className={styles.stackIcon} />,
+      <SiMaterialui className={styles.stackIcon} />,
     ],
   },
   {
     name: "Lumen 5 clone",
     img: "Lumen5.png",
-    link: "https://thotapavankumar.github.io/Zara_Project_Clone/",
-    git: "https://github.com/Gajanan-Watt/zara_web.git",
+    link: "https://lumen5clone8888.netlify.app/",
+    git: "https://github.com/KaustubhBadve/spiritual-school-8644",
     about:
-      " It is an e-commerce website having varieties of luxury items which are of high quality. We have tried to clone the pixel perfect website with the help of HTML. Implemented using HTML, CSS and javascript.",
+      " video creation platform for different brands and companies forsocial media stories, posts, and advertisements.",
     stacks: [
       
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} />,
+      <SiRedux className={styles.stackIcon} />,
+      <SiChakraui className={styles.stackIcon} />,
+
     ],
   },
   {
@@ -65,6 +71,9 @@ const projects = [
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} />,
+      <SiRedux className={styles.stackIcon} />,
+      <SiChakraui className={styles.stackIcon} />,
     ],
   }
   

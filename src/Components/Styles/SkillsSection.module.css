@@ -28,7 +28,7 @@
 }
 .skillsContFront {
   display: grid;
-  grid-template-columns: repeat(6, 16.6%);
+  grid-template-columns: repeat(8, 12%);
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -46,7 +46,7 @@
 }
 .toolsDiv {
   display: grid;
-  grid-template-columns: repeat(3, 33.3%);
+  grid-template-columns: repeat(4, 25%);
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -112,7 +112,7 @@
     width: 90%;
   }
   .skillsContFront {
-    grid-template-columns: repeat(3, 33.3%);
+    grid-template-columns: repeat(3, 33.33%);
     /* height: 120vh; */
   }
 }

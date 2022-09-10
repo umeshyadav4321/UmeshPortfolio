@@ -36,6 +36,7 @@
 }
 
 .profilePicCont {
+
 }
 .profilePic {
   text-align: right;
@@ -62,6 +63,6 @@
   }
   .profilePic {
     width: 60%;
-    height: 90px;
+    /* height: 90px; */
   }
 }
