@@ -115,4 +115,8 @@
     grid-template-columns: repeat(3, 33.33%);
     /* height: 120vh; */
   }
+  .toolsDiv {
+    grid-template-columns: repeat(3, 33.33%);
+    /* height: 120vh; */
+  }
 }
