@@ -4,7 +4,6 @@ import styles from "./Styles/SkillsSection.module.css"
 import { GrReactjs } from "react-icons/gr"
 import { SiRedux } from "react-icons/si"
 import { SiJavascript } from "react-icons/si"
-import { SiMaterialui } from "react-icons/si"
 import { SiHtml5 } from "react-icons/si"
 import { SiCss3 } from "react-icons/si"
 import { SiNpm } from "react-icons/si"
@@ -15,6 +14,17 @@ import {SiChakraui} from "react-icons/si"
 import {SiTypescript} from "react-icons/si"
 import {SiCypress} from "react-icons/si"
 import {DiVisualstudio} from "react-icons/di"
+import { SiGraphql } from "react-icons/si";
+import { FaGitlab } from "react-icons/fa";
+import { FaBitbucket } from "react-icons/fa";
+import { FaJira } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+
+
+
+
+
+
 
 
 export function SkillsSection() {
@@ -83,6 +93,14 @@ export function SkillsSection() {
               />
             }
           />
+           <SkillCard
+            skill="Graphql"
+            icon={
+              <SiGraphql
+                className={`${styles.skillIcon} ${styles.muiIcon}`}
+              />
+            }
+          />
         </div>
         
         
@@ -110,6 +128,31 @@ export function SkillsSection() {
               <DiVisualstudio className={`${styles.skillIcon} ${styles.gitIcon}`} />
             }
           />
+          <SkillCard
+            skill="Gitlab"
+            icon={
+              <FaGitlab className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          />
+          <SkillCard
+            skill="Bitbucket"
+            icon={
+              <FaBitbucket className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          />
+           <SkillCard
+            skill="Jira"
+            icon={
+              <FaJira className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          />
+          <SkillCard
+            skill="Mysql"
+            icon={
+              <SiMysql className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          />
+          
         </div>
       </Fade>
     </div>

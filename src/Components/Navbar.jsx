@@ -11,9 +11,9 @@ export function Navbar() {
         hashSpy={true}
         activeClass={styles.active}
       >
-        {/* <div className={styles.navlogo}>
+        <div className={styles.navlogo}>
           <img src="logo.png" alt="" className={styles.logoimg} />
-        </div> */}
+        </div>
       </Link>
       <div className={styles.navsCont}>
         <Link
