@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img
-              src="Profile.jpg"
+              src="profile.jpg"
               alt=""
               className={styles.profilePic}
             />
