@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img
-              src="profile.jpg"
+              src="NewProfile.jpg"
               alt=""
               className={styles.profilePic}
             />
@@ -19,7 +19,7 @@ export function AboutSection() {
               I am <span>Umesh Yadav</span>{" "}
             </h2>
             <p>
-            Creative and detail-oriented Frontend Developer with 1.5 years of experience in designing and implementing responsive and user-friendly web applications. Proficient in HTML, CSS, JavaScript, and modern frontend framework like React. Passionate about developing high-quality code and delivering exceptional user experiences.
+            Creative and detail-oriented Frontend Developer with 2.5 years of experience in designing and implementing responsive and user-friendly web applications. Proficient in HTML, CSS, JavaScript, and modern frontend framework like React. Passionate about developing high-quality code and delivering exceptional user experiences.
             </p>
           </div>
         </div>
