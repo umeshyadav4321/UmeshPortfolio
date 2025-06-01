@@ -11,7 +11,7 @@ import { SiMongodb } from "react-icons/si"
 import { AiFillHtml5 } from "react-icons/ai"
 import { SiMaterialui } from "react-icons/si"
 import {SiChakraui} from "react-icons/si"
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 const projects = [
   {
     name: "Juicy Chemistry clone",

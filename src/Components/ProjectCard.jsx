@@ -1,7 +1,7 @@
 import styles from "./Styles/ProjectsSection.module.css"
 import LinkIcon from "@material-ui/icons/Link"
 import GitHubIcon from "@material-ui/icons/GitHub"
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 export function ProjectCard({ name, img, git, link, stacks, about }) {
   return (
     <>

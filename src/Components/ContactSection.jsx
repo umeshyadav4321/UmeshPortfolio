@@ -9,7 +9,7 @@ import { Form, Input, TextArea, Button } from 'semantic-ui-react'
 import Swal from 'sweetalert2'
 
 
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 export function ContactSection() {
   const form = useRef();
 

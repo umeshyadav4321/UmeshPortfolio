@@ -4,7 +4,7 @@ import styles from "./Styles/HeroSection.module.css"
 import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import { RiDownloadLine } from "react-icons/ri"
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal"
 
 const useStyles = makeStyles({
   contactBtn: {
