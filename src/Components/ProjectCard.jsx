@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./Styles/ProjectsSection.module.css"
 import LinkIcon from "@material-ui/icons/Link"
 import GitHubIcon from "@material-ui/icons/GitHub"

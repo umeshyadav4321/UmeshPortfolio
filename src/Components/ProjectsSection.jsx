@@ -1,3 +1,5 @@
+import React from "react";
+
 import { ProjectCard } from "./ProjectCard"
 import styles from "./Styles/ProjectsSection.module.css"
 import { SiReact } from "react-icons/si"
@@ -101,7 +103,7 @@ export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
       <Fade bottom>
-        <p>Projects</p>
+        <p className={styles.sectionTitle}>Projects</p>
       </Fade>
       <div className={styles.projectGrid}>
         {projects.map((project) => (

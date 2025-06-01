@@ -17,6 +17,14 @@
   font-size: 40px;
   font-weight: 400;
 }
+.sectionTitle {
+  font-size: 2rem;       /* Adjust the size as needed */
+  font-weight: 600;      /* Make it bolder */
+  margin-bottom: 1rem;   /* Add spacing below */
+  color: #333;           /* Optional: give it a clean, dark color */
+  text-align: center;    /* Center it if you prefer */
+}
+
 .mainCont {
   display: grid;
   grid-template-columns: 30% 60%;

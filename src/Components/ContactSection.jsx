@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./Styles/ContactSection.module.css"
 
 import { AiOutlineMail } from "react-icons/ai"

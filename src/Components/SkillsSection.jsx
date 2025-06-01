@@ -1,3 +1,5 @@
+import React from "react";
+
 import { makeStyles } from "@material-ui/styles"
 import { SkillCard } from "./SkillCard"
 import styles from "./Styles/SkillsSection.module.css"
@@ -31,8 +33,8 @@ export function SkillsSection() {
   return (
     <div className={styles.rootCont} id="skills">
       <Fade bottom>
-        <p>Skills</p>
-        <p>Front-end skills</p>
+        <p className={styles.sectionTitle}>Skills</p>
+        <p style={{fontSize:"20px"}}>Front-end skills</p>
         
         <div className={styles.skillsContFront}>
         <SkillCard
@@ -104,7 +106,7 @@ export function SkillsSection() {
         </div>
         
         
-        <p>Tools</p>
+        <p style={{fontSize:"20px"}}>Tools</p>
         <div className={styles.toolsDiv}>
           <SkillCard
             skill="Git"

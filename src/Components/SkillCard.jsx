@@ -1,11 +1,13 @@
+import React from "react";
+
 import { Paper } from "@material-ui/core"
 import styles from "./Styles/SkillCard.module.css"
 
 import { useState } from "react"
-import Jump from "react-reveal/Jump"
-import HeadShake from "react-reveal/HeadShake"
-import Pulse from "react-reveal/Pulse"
-import Jello from "react-reveal/Jello"
+// import Jump from "react-reveal/Jump"
+// import HeadShake from "react-reveal/HeadShake"
+// import Pulse from "react-reveal/Pulse"
+// import Jello from "react-reveal/Jello"
 export function SkillCard({ skill, icon }) {
   const [count, setCount] = useState(0)
   const handleClick = () => {

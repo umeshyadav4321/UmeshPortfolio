@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./Styles/AboutSection.module.css"
 import Fade from "react-awesome-reveal"
 
@@ -5,7 +7,7 @@ export function AboutSection() {
   return (
     <div className={styles.rootCont} id="about">
       <Fade bottom>
-        <p>About</p>
+        <p className={styles.sectionTitle}>About</p>
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img

@@ -14,6 +14,14 @@
 
   margin: 0 auto;
 }
+.sectionTitle {
+  font-size: 2rem;       /* Adjust the size as needed */
+  font-weight: 600;      /* Make it bolder */
+  margin-bottom: 1rem;   /* Add spacing below */
+  color: #333;           /* Optional: give it a clean, dark color */
+  text-align: center;    /* Center it if you prefer */
+}
+
 .rootCont > p {
   font-size: 30px;
   font-weight: 400;
